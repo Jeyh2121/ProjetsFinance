@@ -19,3 +19,7 @@ __pycache__/
 # Empêche d'envoyer par erreur de gros fichiers Excel ou CSV de données personnelles
 *.csv
 *.xlsx
+
+# --- DOSSIERS INUTILES ---
+.DS_Store
+*.code-workspace
