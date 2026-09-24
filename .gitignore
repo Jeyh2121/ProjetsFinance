@@ -1,0 +1,21 @@
+# --- SÉCURITÉ : Fichiers sensibles (Ne jamais envoyer sur Internet) ---
+.env
+*.key
+*.pem
+secrets.json
+
+# --- PYTHON : Environnements virtuels (Inutiles à partager) ---
+.venv/
+venv/
+ENV/
+
+# --- PYTHON : Caches et fichiers temporaires ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- DONNÉES FINANCIÈRES LOCALES (Optionnel mais recommandé pour la vie privée) ---
+# Empêche d'envoyer par erreur de gros fichiers Excel ou CSV de données personnelles
+*.csv
+*.xlsx
